@@ -1,0 +1,39 @@
+.page-container{
+    display: flex;
+    background-color: #173F5F;
+    height: 100rem;
+}
+.top-right{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    
+}
+.top-left{
+    width: 50%;
+}
+.title{
+    display: flex;
+    font-size: 3rem;
+    padding-left: 5rem;
+    color: white;
+}
+.top-left-sub{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color:white;
+}
+.type{
+    text-transform: capitalize;
+}
+.value{
+    justify-content: center;
+    text-align: center;
+}
+.rating .label{
+    font-size: 20px;
+    color:white;
+}
